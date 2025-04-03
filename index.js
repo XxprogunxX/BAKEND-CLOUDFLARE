@@ -4,7 +4,7 @@ const routes = require('./src/routes');
 const { init } = require('./src/servicelocator/composer');
 
 const app = express();
-const port = 3001;
+const port = 5005;
 
 app.use(cors()); // Habilitar CORS
 app.use(express.json()); // Asegurarse de poder manejar JSON
